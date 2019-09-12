@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="WebCarApplication:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/WebCarApplication_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="WebCarApplication/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="WebCarApplication" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="mysql:mysql-connector-java:5.1.40" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
